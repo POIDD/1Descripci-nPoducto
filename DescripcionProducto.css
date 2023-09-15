@@ -1,0 +1,121 @@
+/* Estilos generales */
+.mainDescripcionProducto {
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: #6D93C9;
+    background-color: #B5DDCA;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+   
+}
+
+/* Estilos del producto */
+.contenedorDescriccionProducto{
+    margin-top: 3%; /* Margen superior de 20 píxeles */
+    margin-bottom: 20px; /* Margen inferior de 20 píxeles */
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.imgYestrellas img {
+    max-width: 100%;
+    height: auto;
+    
+}
+.imgYestrellas{
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contendoraBOTONES{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.descripcion {
+    font-size: 16px;
+    margin-bottom: 20px;
+  
+}
+
+.precios {
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+
+.precio-sin-descuento {
+    text-decoration: line-through;
+    color: #2D57A8;
+    
+}
+
+.agregar-al-carrito,
+.continuar-compra {
+    background-color: #2D57A8;
+    color: #FFFEFE;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+
+.agregar-al-carrito:hover,
+.continuar-compra:hover {
+    background-color: #6D93C9;
+   
+}
+
+
+
+/*  sección de calificación */
+.calificacion {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.calificacion h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.estrellas {
+    font-size: 2rem;
+}
+
+.estrella {
+    color: #FFD700; /* Color de estrella amarilla */
+    cursor: pointer;
+    margin: 0 5;
+}
+
+/* Cambia el color de las estrellas al pasar el ratón sobre ellas */
+.estrella:hover {
+    color: #FFB400; /* Color de estrella amarilla más claro al pasar el ratón */
+}
+
+.enviar-calificacion {
+    background-color: #2D57A8;
+    color: #FFFEFE;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.enviar-calificacion:hover {
+    background-color: #6D93C9;
+}
